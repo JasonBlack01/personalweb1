@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotions Journal</title>
+</head>
+<body>
+    <h1>Emotions Journal</h1>
+    <h4>Store your emotions here... <br>
+        Send them to your therapist.
+    </h4>
+
+    <form action="mailto:jjappiah321@gmail.com" target="blank" method="POST" enctype="text/plain">
+        <table>
+            <tr>
+                <td>  <label for="">Date </label> </td>
+                <td>  <input type="date" name="Date">   </td>
+            </tr>
+            <tr>
+                <td><label for="">What are you feeling right now?</label></td>
+                <td><input type="text" name = "Emotion"></td>
+            </tr>
+            <tr>
+                <td><label for="">What color best describes your emotion?</label></td>
+                <td><input type="color" name = "color"></td>
+
+            </tr>
+            <tr>
+                <td><label for="">How Strongly are you feeling this emotion?</label></td>
+                <td><input type="range" name="Degree of Feeling"></td>
+            </tr>
+            <tr>
+                <td>Elaborate</td>
+                <td><textarea name="Elaboration" id="" cols="30" rows="5"></textarea></td>
+            </tr>
+            
+        </table>
+        <input type="submit" >
+
+        <hr>
+        <a href="index.html">Back to Home</a>
+    </form>
+    
+</body>
+</html>
